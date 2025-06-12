@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 
 def parse_product(html, source_url):
-    # use built-in parser so no extra deps
     soup = BeautifulSoup(html, "html.parser")
 
     def sel_one(selector):
