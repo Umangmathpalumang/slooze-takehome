@@ -31,13 +31,6 @@
 
 
 
-README.md
-markdown
-Copy
-# Slooze Data-Engineering Take-Home
-
-## 🚀 Quickstart
-
 1. **Clone & venv**  
    ```bash
    git clone <your-repo-url>
@@ -63,7 +56,6 @@ Copy
 python eda/eda.py output/processed.csv output/eda
 Outputs charts in output/eda/.
 
-🛠️ Project Structure
 arduino
 Copy
 slooze-takehome/
@@ -75,13 +67,10 @@ slooze-takehome/
 │   └── __main__.py
 ├── eda/
 │   └── eda.py
-├── output/      # (auto-created) processed.csv, eda charts
+├── output/      
 ├── requirements.txt
 └── README.md
-✅ Tips
-Respect robots.txt and throttle your requests.
 
-Log successes/failures to resume mid-crawl.
 
 Commit raw HTML snapshots if needed.
 
